@@ -12,25 +12,84 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <!-- Custom CSS -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
         <!-- Custom fonts -->
     </head>
     <body>
         <div id="wrapper">
-            <header id="page-header">
-                <section class="header__content container">
-                    <h1 class="header__logo">LOGO</h1>
-                    <nav class="header__menu"></nav>
-                    <div class="header__profile"></div>
+            <header class="page-header">
+                <section class="navbar navbar-expand-sm">
+                    <button class="navbar-toggler navbar__mennu--toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar__menu--icon"></span>
+                    </button>
+                    <h1 class="navbar__logo order-sm-0 mb-0"><a class="navbar__logo--link text-decoration-none" href="#">LOGO</a></h1>
+                    <nav class="navbar__menu navbar-collapse collapse flex-sm-grow-0" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li><a class="nav-link nav-link--active" href="#">HOME</a></li>
+                                <li><a class="nav-link" href="#">DISCOVERY</a></li>
+                                <li><a class="nav-link" href="#">PHOTOS</a></li>
+                                <li><a class="nav-link" href="#">CONTACT</a></li>
+                            </ul>
+                    </nav>
+                    <div class="navbar__profile">
+                            <a class="profile--pic d-inline-block" href="#"> </a>
+                    </div>
                 </section>
+                <!--topbar-->
+                <section class="header-banner container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xl-7 header-banner__jumbotron d-flex">
+                            <article class="text-white jumbotron__block align-self-center">
+                                <h2 class="h4 font-weight-bold text-truncate title__block jumbotron__block--title">WORLD NEWS</h2>
+                                <h3 class="h4 font-weight-bold jumbotron__block--subtitle">Amazing places in America to visit.</h3>
+                                <p class="jumbotron__block--text overflow-hidden">For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in. </p>
+                                <button type="button" class="btn btn-primary btn--primary">LEARN MORE</button>
+                            </article> 
+                        </div>
+                        <div class="col-12 col-xl-5 header-banner__news bg-white">
+                            
+                            <div class="news__block">
+                                <div class="title__block news__title clearfix">
+                                    <h2 class="h4 mb-0 font-weight-bold color--black news__title--text float-left">MORE NEWS</h2>
+                                    <ul class="float-right pagination mb-0 news__title--paging">
+                                        <li class="page-item disabled">
+                                            <a class="page-link border-0 pb-0" href="#" aria-label="Previous">
+                                                <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link border-0 color--black pb-0" href="#" aria-label="Next">
+                                                <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <article class="news__item">
+                                    <h3 class="h5 font-weight-bold color--red news__item--cat-title">TRAVEL</h3>
+                                    <h4 class="h5 font-weight-bold color--black news__item--art-title-">Article title</h4>
+                                    <p class="text-truncate">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem</p>
+                                    <div class="news__item--timeline">
+                                        <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                <!--jumbotron_news-->
             </header>
-            <main id="page-content"></main>
-            <footer id="page-footer"></footer>
+            <!--page-header-->
+            <main class="page-content"></main>
+            <!--page-content-->
+            <footer class="page-footer"></footer>
+            <!--page-footer-->
         </div>
-        
+        <!--page-wrapper-->
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/057099aa30.js"></script>
         
         <!-- Custom JS -->
     </body>

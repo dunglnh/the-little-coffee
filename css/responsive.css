@@ -1,0 +1,61 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar__menu {
+        position: absolute;
+        left: 1rem;
+        top: 2rem;
+        z-index: 1001; 
+        background-color: #fffff9;
+        padding: 0.5rem 1rem;
+    }
+    .navbar__menu .navbar-nav .nav-link{
+        padding: 0.5rem 0 0;
+    }
+    .header-banner__jumbotron {
+        min-height: 23.25rem;
+    }
+ }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar__logo--link { 
+        color: #FA6980; 
+    }
+    .navbar__logo--link:hover { 
+        color: #f04b67; 
+    }
+    .navbar__menu{margin-left: auto;}
+    .profile--pic {
+        width: 2rem; 
+        height: 2rem; 
+        margin-left: 1rem; 
+    }
+    .navbar__menu .navbar-nav .nav-link { 
+        padding-left: 1rem; 
+        padding-right: 1rem; 
+    }
+    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron__block, .news__block { 
+        padding: 0 3.125rem;
+    }
+    .header-banner__jumbotron {
+        min-height: 25rem;
+    }
+  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .jumbotron__block { 
+        padding: 0 6.875rem;
+    }
+    .header-banner__jumbotron {
+        min-height: 37.5rem;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

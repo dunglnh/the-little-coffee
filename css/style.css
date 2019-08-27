@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+}
+
+body {
+    color: #A6ADB4;
+    font-family: Helvetica, sans-serif;
+    background-color: #F6F8F9;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #A6ADB4;
+}
+.color--black{ 
+    color: #202124;
+}
+.color--grey {
+    color: #A6ADB4;
+}
+
+.color--green {
+    color: #1DBD8E
+}
+
+.color--red {
+    color: #FA6980;
+}
+.btn{
+    font-size: 0.6875rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    padding: 0.5rem 1.75rem ;
+    border-width: 2px;
+}
+.btn--primary, .btn--default:hover{
+    background-color: #FA6980;
+    border-color: #FA6980;
+}
+.btn--default, .btn--primary:hover{
+    background-color: #F6F8F9;
+    border: 2px solid #FA6980;
+    color: #FA6980;
+}
+
+/* Landing Page */
+.navbar {
+    font-size: 0.6875rem;
+    font-weight: bold;
+}
+
+.navbar__logo {
+    font-size: 0.8125rem;
+    font-weight: bold;
+}
+
+.navbar__menu--icon {
+    background-image: url(/images/menu-icon@2x.png);
+    width: 16px;
+    height: 14px;
+}
+
+.navbar__mennu--toggler {
+    padding: 0;
+    border: none;
+}
+
+.nav-link {
+    color: #CED3D6
+}
+
+.nav-link:hover {
+    color: #A6ADB4;
+}
+
+.nav-link--active {
+    color: #A6ADB4;
+}
+
+.profile--pic {
+    background: url(/images/profile-pic@2x.png) left top no-repeat;
+    width: 1rem;
+    height: 1rem;
+    background-size: 100% auto;
+    vertical-align: middle;
+}
+
+.header-banner__jumbotron {
+    background: url(/images/banner-1@2x.jpg) left top no-repeat;
+    background-size: 100% auto;
+    min-height: 24.25rem;
+}
+.jumbotron__block, .news__block { 
+    padding: 0  0.5rem ;
+}
+.title__block{
+    margin-bottom: 2.3rem;
+    padding-bottom: 2.3rem;
+    border-bottom: 2px solid transparent;
+}
+.jumbotron__block--title{ 
+    border-color: #fff;  
+}
+.jumbotron__block--text{
+    line-height: 1.625rem;
+    max-height: 5rem;
+}
+.header-banner__news{
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+
+}
+.news__title{
+    border-color: #EBEDED;  
+}
+.news__title--paging .page-link, .news__title--paging .page-link:hover{
+    background:transparent;
+}
+
