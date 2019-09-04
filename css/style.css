@@ -1,8 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-html {
-}
-
 body {
     color: #A6ADB4;
     font-family: Helvetica, sans-serif;
@@ -42,6 +39,9 @@ a, a:hover {
     background-color: #F6F8F9;
     border: 2px solid #FA6980;
     color: #FA6980;
+}
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Landing Page */
@@ -92,7 +92,8 @@ a, a:hover {
     min-height: 24.25rem;
 }
 .jumbotron__block, .news__block { 
-    padding: 0  0.5rem ;
+    width: 345px;
+    margin: 0 auto;
 }
 .title__block{
     margin-bottom: 2.3rem;
@@ -111,10 +112,24 @@ a, a:hover {
     padding-bottom: 2.3rem;
 
 }
+
 .news__title{
     border-color: #EBEDED;  
 }
-.news__title--paging .page-link, .news__title--paging .page-link:hover{
-    background:transparent;
+.news__title--paging .page-link:hover{
+    color: #FA6980;
+}
+.article__item--timeline time{
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}
+.article__item--text{
+    max-height: 2.8125rem ;
+}
+.content__block{
+    padding-top: 2.3rem;
+}
+.trending__item--photo {
+    
 }
 

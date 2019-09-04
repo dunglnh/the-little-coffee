@@ -14,6 +14,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
         <!-- Custom fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="wrapper">
@@ -46,42 +47,113 @@
                                 <button type="button" class="btn btn-primary btn--primary">LEARN MORE</button>
                             </article> 
                         </div>
-                        <div class="col-12 col-xl-5 header-banner__news bg-white">
-                            
+                        <!--jumbotron-->
+                        <div class="col-12 col-xl-5 header-banner__news bg-white">   
                             <div class="news__block">
                                 <div class="title__block news__title clearfix">
                                     <h2 class="h4 mb-0 font-weight-bold color--black news__title--text float-left">MORE NEWS</h2>
                                     <ul class="float-right pagination mb-0 news__title--paging">
                                         <li class="page-item disabled">
-                                            <a class="page-link border-0 pb-0" href="#" aria-label="Previous">
+                                            <a class="page-link border-0 pb-0 bg-transparent" href="#" aria-label="Previous">
                                                 <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
                                             </a>
                                         </li>
                                         <li class="page-item">
-                                            <a class="page-link border-0 color--black pb-0" href="#" aria-label="Next">
+                                            <a class="page-link border-0 color--black pb-0 bg-transparent" href="#" aria-label="Next">
                                                 <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
-                                <article class="news__item">
-                                    <h3 class="h5 font-weight-bold color--red news__item--cat-title">TRAVEL</h3>
-                                    <h4 class="h5 font-weight-bold color--black news__item--art-title-">Article title</h4>
-                                    <p class="text-truncate">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem</p>
-                                    <div class="news__item--timeline">
-                                        <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
-                                    </div>
-                                </article>
+                                <div class="row">
+                                    <article class="mb-5 col-md-6 col-lg-12">
+                                        <h3 class="h6 font-weight-bold mb-3 article__item--cat-title"> <a class="color--red" href="#">TRAVEL</a></h3>
+                                        <h4 class="h6 font-weight-bold"> <a class="color--black" href="#">Article title</a></h4>
+                                        <p class="open-sans mb-2 text--grey overflow-hidden article__item--text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem...</p>
+                                        <div class="article__item--timeline">
+                                            <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
+                                        </div>
+                                    </article>
+                                    <article class="col-md-6 col-lg-12">
+                                        <h3 class="h6 font-weight-bold mb-3 article__item--cat-title"> <a class="color--red" href="#">TECHNOLOGY</a></h3>
+                                        <h4 class="h6 font-weight-bold color--black"> <a class="color--black" href="#">Article title</a></h4>
+                                        <p class="open-sans mb-2 text--grey overflow-hidden article__item--text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem...</p>
+                                            <div class="article__item--timeline">
+                                                <i class="far fa-clock"></i> <time class="font-italic">1h ago</time>
+                                            </div>
+                                    </article>
+                                </div> 
                             </div>
                         </div>
+                        <!--news-->
                     </div>  
                 </section>
                 <!--jumbotron_news-->
             </header>
             <!--page-header-->
-            <main class="page-content"></main>
+            <main class="page-content container">
+                <div class="content__block content__block--trending">
+                    <div class="title__block clearfix border-bottom-0 pb-0">
+                        <h2 class="h4 mb-0 font-weight-bold color--black news__title--text float-left">TRENDING</h2>
+                        <ul class="float-right pagination mb-0 news__title--paging">
+                            <li class="page-item disabled">
+                                <a class="page-link border-0 pb-0 bg-transparent" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link border-0 color--black pb-0 bg-transparent" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>    
+                    <ul class="row list-unstyled">
+                        <li class="trending__item col-md-6 col-lg-4">
+                            <figure class="trending__item--photo overflow-hidden rounded-top">
+                                <a href="#"><img alt="Trending-1" src="/images/trending-img-1.jpg"/></a>
+                            </figure>
+                            <article>
+                                <h4 class="h6 font-weight-bold color--black">Article title</h4>
+                                <p class="open-sans mb-2 text--grey overflow-hidden article__item--text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem...</p>
+                                <div class="article__item--timeline">
+                                    <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="trending__item col-md-6 col-lg-4">
+                            <figure class="trending__item--photo overflow-hidden rounded-top">
+                                <a href="#"><img class="rounded-top" alt="Trending-1" src="/images/trending-img-2.jpg"/></a>
+                            </figure>
+                            <article>
+                                <h4 class="h6 font-weight-bold color--black">Article title</h4>
+                                <p class="open-sans mb-2 text--grey overflow-hidden article__item--text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem...</p>
+                                <div class="article__item--timeline">
+                                    <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="trending__item col-md-6 col-lg-4 d-none d-lg-block">
+                            <figure class="trending__item--photo overflow-hidden rounded-top">
+                                <a href="#"><img class="rounded-top" alt="Trending-1" src="/images/trending-img-3.jpg"/></a>
+                            </figure>
+                            <article>
+                                <h4 class="h6 font-weight-bold color--black">Article title</h4>
+                                <p class="open-sans mb-2 text--grey overflow-hidden article__item--text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat ipsum at lorem...</p>
+                                <div class="article__item--timeline">
+                                    <i class="far fa-clock"></i> <time class="font-italic">2m ago</time>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>  
+                </div>
+                
+            </main>
             <!--page-content-->
-            <footer class="page-footer"></footer>
+            <footer class="page-footer">
+                <p></p>
+                <p></p>
+            </footer>
             <!--page-footer-->
         </div>
         <!--page-wrapper-->
