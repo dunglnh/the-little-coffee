@@ -17,6 +17,9 @@
     .jumbotron__block, .news__block { 
         width: 327px;
     }
+    .trending__item--photo{
+        height: 9.75rem;
+    }
  }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

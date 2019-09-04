@@ -129,7 +129,8 @@ a, a:hover {
 .content__block{
     padding-top: 2.3rem;
 }
-.trending__item--photo {
-    
+
+.trending__item .article__item--text {
+    font-size: 0.8125rem;
 }
 
