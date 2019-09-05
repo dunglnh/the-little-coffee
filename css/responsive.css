@@ -31,8 +31,8 @@
     }
     .navbar__menu{margin-left: auto;}
     .profile--pic {
-        width: 2rem; 
-        height: 2rem; 
+        width: 1.8rem; 
+        height: 1.8rem; 
         margin-left: 1rem; 
     }
     .navbar__menu .navbar-nav .nav-link { 
@@ -64,6 +64,9 @@
     }
     .header-banner__news{
         padding-top: 6rem;
+    }
+    .happeningnow__item--photo{
+        height: 13.125rem;
     }
  }
 

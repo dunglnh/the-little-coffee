@@ -5,7 +5,6 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: #F6F8F9;
 }
-
 a, a:hover {
     text-decoration: none;
     color: #A6ADB4;
@@ -49,45 +48,37 @@ a, a:hover {
     font-size: 0.6875rem;
     font-weight: bold;
 }
-
 .navbar__logo {
     font-size: 0.8125rem;
     font-weight: bold;
 }
-
 .navbar__menu--icon {
-    background-image: url(/images/menu-icon@2x.png);
+    background-image: url(/images/menu-icon.png);
     width: 16px;
     height: 14px;
 }
-
 .navbar__mennu--toggler {
     padding: 0;
     border: none;
 }
-
 .nav-link {
     color: #CED3D6
 }
-
 .nav-link:hover {
     color: #A6ADB4;
 }
-
 .nav-link--active {
     color: #A6ADB4;
 }
-
 .profile--pic {
-    background: url(/images/profile-pic@2x.png) left top no-repeat;
+    background: url(/images/profile-pic.png) left top no-repeat;
     width: 1rem;
     height: 1rem;
     background-size: 100% auto;
     vertical-align: middle;
 }
-
 .header-banner__jumbotron {
-    background: url(/images/banner-1@2x.jpg) left top no-repeat;
+    background: url(/images/banner-1.jpg) left top no-repeat;
     background-size: 100% auto;
     min-height: 24.25rem;
 }
@@ -112,7 +103,6 @@ a, a:hover {
     padding-bottom: 2.3rem;
 
 }
-
 .news__title{
     border-color: #EBEDED;  
 }
@@ -129,8 +119,16 @@ a, a:hover {
 .content__block{
     padding-top: 2.3rem;
 }
-
 .trending__item .article__item--text {
     font-size: 0.8125rem;
+}
+.line--grey{
+    border-bottom: 2px solid #EBEDED;
+}
+.happeningnow__item--photo{
+    height: 11.25rem;
+}
+.article__item--link{
+    text-decoration: underline;
 }
 
