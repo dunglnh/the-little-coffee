@@ -53,7 +53,7 @@ a, a:hover {
     font-weight: bold;
 }
 .navbar__menu--icon {
-    background-image: url(/images/menu-icon.png);
+    background-image: url(../images/menu-icon.png);
     width: 16px;
     height: 14px;
 }
@@ -71,14 +71,14 @@ a, a:hover {
     color: #A6ADB4;
 }
 .profile--pic {
-    background: url(/images/profile-pic.png) left top no-repeat;
+    background: url(../images/profile-pic.png) left top no-repeat;
     width: 1rem;
     height: 1rem;
     background-size: 100% auto;
     vertical-align: middle;
 }
 .header-banner__jumbotron {
-    background: url(/images/banner-1.jpg) left top no-repeat;
+    background: url(../images/banner-1.jpg) left top no-repeat;
     background-size: 100% auto;
     min-height: 24.25rem;
 }
@@ -130,5 +130,20 @@ a, a:hover {
 }
 .article__item--link{
     text-decoration: underline;
+}
+.happening__item{
+    margin-bottom: 2.5rem;
+}
+.happeningnow__item--bgimg{
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.happeningnow__item--content{
+    padding: 2rem 1.5rem;
+    height: 18.75rem;
+}
+.happeningnow__item--content .article__item--text {
+    max-height: 4.5rem;
 }
 

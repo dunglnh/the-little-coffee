@@ -49,6 +49,10 @@
     .header-banner__jumbotron {
         min-height: 25rem;
     }
+    .happeningnow__item--content{
+        padding: 3rem 2.5rem;
+        height: 26.875rem;
+    }
   }
 
 /* Large devices (desktops, 992px and up) */
@@ -68,6 +72,7 @@
     .happeningnow__item--photo{
         height: 13.125rem;
     }
+    
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
