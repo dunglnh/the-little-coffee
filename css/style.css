@@ -146,4 +146,12 @@ a, a:hover {
 .happeningnow__item--content .article__item--text {
     max-height: 4.5rem;
 }
+.page-footer{
+    background-color: #A6ADB4;
+    padding: 3.75rem 0;
+}
+.footer__menu--link {
+    font-size: 0.8125rem;
+    padding: 0 1.5rem 0.5rem 0;
+}
 
