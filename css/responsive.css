@@ -53,7 +53,12 @@
         padding: 3rem 2.5rem;
         height: 26.875rem;
     }
-  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .email__block--group {
+        width: 17.75rem;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
